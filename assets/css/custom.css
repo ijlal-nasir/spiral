@@ -147,6 +147,31 @@ img {
   text-transform: uppercase;
 }
 
+.btn-success {
+  background-color: #5bc8af;
+}
+
+.btn-success:hover {
+  background-color: #5bc8af;
+}
+
+.btn-success:active {
+  background-color: #35bb9c;
+}
+
+/* #form-country-select {
+  padding-left: 12px;
+} */
+
+#form-country-select:focus {
+  outline: none !important;
+}
+
+#form-country-select option {
+  background-color: white;
+  color: rgba(25, 77, 68, 1);
+}
+
 /*  */
 
 /* About Section */
@@ -393,6 +418,10 @@ footer .column-img .play-btn:before {
 }
 
 @media (max-width: 991px) {
+  .navbar li:nth-last-of-type(1) a {
+    border: none !important;
+    padding-left: 0 !important;
+  }
   .masthead .overlay .intro-text {
     text-align: center;
   }
