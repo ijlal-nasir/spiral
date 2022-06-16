@@ -27,6 +27,8 @@ img {
   transition: background-color 200ms linear;
 }
 
+/* Banner */
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -159,10 +161,6 @@ img {
   background-color: #35bb9c;
 }
 
-/* #form-country-select {
-  padding-left: 12px;
-} */
-
 #form-country-select:focus {
   outline: none !important;
 }
@@ -172,9 +170,9 @@ img {
   color: rgba(25, 77, 68, 1);
 }
 
-/*  */
+/* Banner End */
 
-/* About Section */
+
 
 .about h2 {
   color: #000000;
@@ -191,7 +189,7 @@ img {
 
 .about #carouselExampleIndicators {
   margin-top: -25px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 .about .carousel-inner .carousel-item .carousel-img {
@@ -260,6 +258,26 @@ img {
   color: rgba(91, 200, 175, 1);
 }
 
+
+.carousel-indicators [data-bs-target] {
+  height: 5px;
+  width: 5px;
+  
+  border-radius: 50%;
+  border: 5px solid #EAEAEA;
+  background-color: #EAEAEA;
+}
+.carousel-indicators [data-bs-target].active {
+  height: 5px;
+  width: 5px;
+  
+  border-radius: 50%;
+  border: 5px solid #35bb9c;
+  background-color: #35bb9c;
+}
+
+/* Slider End */
+
 .about .custom-tooltip:hover {
   color: rgba(91, 200, 175, 1);
 }
@@ -302,10 +320,7 @@ footer h2 .hollow-heading {
   font-family: "Nunito", sans-serif;
   -webkit-text-stroke: 1px #ffffff;
 }
-/* footer .column-info {
-  background: url(../images/column-info-bg.png) center center no-repeat;
-  background-size: cover;
-} */
+
 footer .column-info i {
   display: flex;
   margin-top: 7px;
@@ -453,10 +468,6 @@ footer .column-img .play-btn:before {
   footer .column-img {
     padding: 14%;
   }
-  /* footer .column-img .play-btn {
-    top: 6.5em;
-    transform: translate(-4em, -2.5em);
-  } */
 }
 @media screen and (max-width: 767px) {
   .masthead .overlay .intro-text {

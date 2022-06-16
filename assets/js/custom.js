@@ -25,6 +25,7 @@ $(async function () {
     slidesToScroll: 1,
     arrows: true,
     dots: true,
+    autoplay: false
   });
 
 
